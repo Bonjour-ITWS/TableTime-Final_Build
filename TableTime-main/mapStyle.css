@@ -1,0 +1,187 @@
+body{
+  font-family: Trade Gothic, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  padding: 0;
+  margin:0;
+
+  text-align: center;
+
+}
+
+header{
+	background: #ab2328;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #d58570 5px solid;
+}
+
+header a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+/* This makes whatever page your on highlighted! */
+header .highlight, header .current a {
+  color:#000000;
+  font-weight: bold;
+
+}
+/* This makes whatever page you hover on highlighted! */
+header a:hover{
+  color:#9ea2a2;
+  font-weight: bold;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+button {
+  background: #00205b;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+button:focus{background-color:red;}
+
+
+/*
+button:visited { #ccc; }
+*/
+
+
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  background-color: #00205b;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.container .btn:focus{
+  background-color: #555;
+}
+
+.vert {
+  transform: rotate(90deg);
+}
+
+
+
+
+.container .covid-btn {
+  background-color: red;
+}
+
+.container .covid-btn:hover {
+  background-color: #BF0A30;
+}
+
+.container .covid-btn:focus{
+  background-color: #FA8072;
+}
+
+
+
+
+
+/* Popup CSS */
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
