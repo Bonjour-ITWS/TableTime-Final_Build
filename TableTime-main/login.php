@@ -40,6 +40,9 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                 header("Location: main.php");
                 exit();
             } else if ($row['username'] === $uname && $row['password'] === $pass && $row['has_reservation'] == 0){
+                $_SESSION['username'] = $row['username'];
+                $_SESSION['name'] = $row['name'];
+                $_SESSION['id'] = $row['id'];
                 header("Location: main.php");
                 exit();
             }

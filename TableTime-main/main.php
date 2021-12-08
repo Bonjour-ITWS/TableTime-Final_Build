@@ -29,6 +29,8 @@ if (mysqli_query($conn, $sql)) {
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <link rel="shortcut icon" href="qr-code.png" type="image/x-icon"/>
+    <title>TableTime</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -39,7 +39,9 @@
       
           <!-- Remind Passowrd -->
           <div id="formFooter">
-            <a class="underlineHover" href="https://bnrpca.rpi.edu:8443/pw-maintenance/forgot-password">Forgot Password?</a>
+            <a class="underlineHover" href="sign-up.php">Sign Up</a>
+            <br>
+            <a class="underlineHover" href="https://bnrpca.rpi.edu:8443/pw-maintenance/forgot-password">Forgot Password</a>
           </div>
       
         </div>

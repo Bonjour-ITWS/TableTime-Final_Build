@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Union 3 Map</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="mapStyle.css"/>
+	<script type="text/javascript" src="resources/functions.js"></script>
+</head>
+
+
+<body>
+
+	<header>
+		<div class="container">
+			<div id="branding">
+				<!--
+				<span>
+					<img src="resources/RPIsmallLogoWhite.png" alt="RPI" width=15%>
+				</span>
+				-->
+			</div>
+			<nav>
+				<ul>
+					<li><a href="main.php">Home</a></li>
+					<li><a href="F3map.html">Folsom Maps</a></li>
+					<li class="current"><a href="union.html">Union Maps</a></li>
+					<li><a href="https://covid19.rpi.edu/">Covid Policies</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+
+
+	<div class="container">
+			<img src="resources/floor.jpg" alt="Folsom 3 Floor" class="center">
+
+			<button class="btn" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 1</button>
+
+			<button class="btn2 covid-btn popup" onclick="popup1()" target="_blank">Closed
+				<span class="popuptext" id="myPopup1">This table is not open for reservations</span>
+			</button>
+
+			<button class="btn3 covid-btn popup" onclick="popup2()" target="_blank">Closed
+				<span class="popuptext" id="myPopup2">This table is not open for reservations</span>
+			</button>
+
+			<button class="btn4" onclick="window.location.href='occupied.html'" target="_blank">Occupied</button>
+	</div>
+	
+	<script type="text/javascript" src="covid-map.js"></script>
+
+
+</body>

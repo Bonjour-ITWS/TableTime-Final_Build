@@ -24,7 +24,7 @@
 
             <!-- Icon -->
             <div class="fadeIn first">
-                <p id="boxHead">TableTime</p>
+                <p id="boxHead">TableTime SubSite</p>
                 <p>You do not currently have a reservation</p>
             </div>
 

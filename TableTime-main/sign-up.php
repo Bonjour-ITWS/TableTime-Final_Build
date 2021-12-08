@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <title>TableTime SubSite</title>
+    <title>TableTime</title>
   </head>
   <body>
     <div class="wrapper fadeInDown">
@@ -25,10 +25,11 @@
           <!-- Icon -->
           <div class="fadeIn first">
             <p id = "boxHead">TableTime</p>
+            <p>Input a Username and Password</p>
           </div>
       
           <!-- Login Form -->
-          <form action="login.php" method="post">
+          <form action="checkuser.php" method="post">
             <?php if (isset($_GET['error'])) { ?>
             <p class="error"><?php echo $_GET['error']; ?></p>
             <?php } ?>
@@ -37,10 +38,6 @@
             <input type="submit"class="fadeIn fourth"></button>
           </form>
       
-          <!-- Remind Passowrd -->
-          <div id="formFooter">
-            <a class="underlineHover" href="https://bnrpca.rpi.edu:8443/pw-maintenance/forgot-password">Forgot Password?</a>
-          </div>
       
         </div>
       </div>
