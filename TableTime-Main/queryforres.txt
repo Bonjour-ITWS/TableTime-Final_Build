@@ -1,0 +1,6 @@
+INSERT INTO `reservation`(`username`, `password`, `has_reservation`, `Floor`, `Seat`, `Start`, `End`, `has_extended`, `is_admin`) VALUES ('haynet3','AMC', 1,'Folsom 4', 5 ,TIME_FORMAT(CURRENT_TIMESTAMP + INTERVAL 10 MINUTE, '%h:%i %p'), TIME_FORMAT(CURRENT_TIMESTAMP + INTERVAL 1 HOUR, '%h:%i %p'), 0, 0)
+
+INSERT INTO `reservation`(`username`, `password`, `has_reservation`, `Floor`, `Seat`, `Start`, `End`, `has_extended`, `is_admin`) VALUES ('haynet3','AMC', 1,'', 5 , " ", " ", 0, 0)
+
+
+INSERT INTO `reservation`(`username`, `password`, `has_reservation`, `Floor`, `Seat`, `Start`, `End`, `has_extended`, `is_admin`) VALUES ('dbachi3','Test', 0,'', "" , " ", " ", 0, 0)

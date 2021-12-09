@@ -1,0 +1,97 @@
+
+	<div class="container">
+		<img src="resources/floor.png" alt="Folsom 4th Floor" class="center">
+
+		<!--Tables at Door-->
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="1"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 25%; left: 25%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 1</button>
+        </form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="2"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 60%; left: 25%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 2</button>
+        </form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="3"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 25%; left: 50%;" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 3</button>
+        </form>
+
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="4"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 60%; left: 50%; background-color: black">Reserve Table 4</button>
+        </form>
+
+
+
+		<!--Tables at Left-->
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="5"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn" style="top: 10%; left: 10%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 5</button>
+        </form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="6"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 30%; left: 1%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 6</button>
+		</form>
+
+		
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="7"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 65%; left: 1%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 7</button>
+		</form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="8"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn" style="top: 85%; left: 20%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 8</button>
+		</form>
+
+
+
+
+
+
+		<!--Tables at Right-->
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="9"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 30%; left: 65%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 9</button>
+		</form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="10"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn" style="top: 10%; left: 70%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 10</button>
+		</form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="11"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 30%; left: 85%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 11</button>
+		</form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="12"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn vert" style="top: 65%; left: 85%" onclick="window.locathion.href='confirm.html'" target="_blank">Reserve Table 12</button>
+		</form>
+
+        <form action = "confirmed.php" method = "post">
+			<input type="hidden" id="seat" name="seat" value="13"><br><br>
+			<input type="hidden" id="floor" name="floor" value="Folsom 4"><br><br>
+			<button class="btn" style="top: 85%; left: 70%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 13</button>
+		</form>
+
+	</div>
+	
