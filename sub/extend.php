@@ -31,6 +31,7 @@ if (mysqli_query($conn, $sql)) {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="g.png" type="image/x-icon"/>
 
     <!-- Bootstrap CSS -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>

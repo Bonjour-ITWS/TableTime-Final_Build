@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="g.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -40,12 +41,13 @@
             <input type="submit"class="fadeIn fourth"></button>
           </form>
 
-            <!-- Remind Passowrd -->
-            <div id="formFooter">
-                <a class="underlineHover" href="https://bnrpca.rpi.edu:8443/pw-maintenance/forgot-password">Forgot
-                    Password?</a>
-            </div>
-
+               <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="sign-up.php">Sign Up</a>
+            <br>
+            <a class="underlineHover" href="https://bnrpca.rpi.edu:8443/pw-maintenance/forgot-password">Forgot Password</a>
+          </div>
+      
         </div>
     </div>
     <!-- Optional JavaScript -->
