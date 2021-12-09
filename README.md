@@ -22,3 +22,6 @@
          -Sign Up Page Also -> Checks to ensure duplicate users cannot be added into the database
          -Working reservation system/page
          -Working Sub-Site that allows a user to Check-In to their table, Extend their reservation, and Check-Out
+         -WORKING EMAIL RESERVATION CONFIRMATION
+         -EMAIL CONFIRMATION WHEN CANCELLING A RESERVATION 
+         
