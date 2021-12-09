@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="microsite.css">
     <link rel="script" href="authentication.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,9 +28,14 @@
                 <p id="boxHead">TableTime SubSite</p>
                 <p>You do not currently have a reservation</p>
             </div>
-
+         <!-- Buttons -->
+            <form>
+                <a href="index.php" target="_parent"><button button type="button" class="fadeIn fourth" style="white-space:nowrap; display: flex; justify-content: center;
+                ">Home</button></a>
         </div>
     </div>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
