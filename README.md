@@ -19,6 +19,6 @@
         
          -Login page for both Main Reservation Page and Sub-Site, properly authenticates user against database entries
          -Sign Up page that allows any user to join
-         -Checks to ensure duplicate users cannot be added into the database
+         -Sign Up Page Also -> Checks to ensure duplicate users cannot be added into the database
          -Working reservation system/page
          -Working Sub-Site that allows a user to Check-In to their table, Extend their reservation, and Check-Out
