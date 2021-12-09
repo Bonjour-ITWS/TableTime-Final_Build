@@ -1,0 +1,21 @@
+===Database tabletime
+
+== Table structure for table reservation
+
+|------
+|Column|Type|Null|Default
+|------
+|//**username**//|varchar(255)|No|
+|password|varchar(255)|No|
+|has_reservation|tinyint(1)|No|
+|Floor|varchar(255)|No|
+|Seat|int(255)|No|
+|Start|time|No|
+|End|time|No|
+|has_extended|tinyint(1)|No|
+|is_admin|tinyint(1)|No|
+== Dumping data for table reservation
+
+|dbachi3|Test|0| |0|00:00:00|00:00:00|0|0
+|haynet3|AMC|1|Folsom 4|10|01:18:00|02:08:00|0|0
+|khayne1|Test|0| |0|00:00:00|00:00:00|0|0
