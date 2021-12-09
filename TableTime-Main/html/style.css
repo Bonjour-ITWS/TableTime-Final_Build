@@ -1,0 +1,40 @@
+.textStyle {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.allignCenter {
+	text-align: center;
+	padding-top: 6rem;
+}
+
+.middleTitle {
+	font-size: 60px;
+	margin-bottom: 1.5rem;
+}
+
+.middleTime {
+	font-size: 30px;
+	margin-top: 1.5rem;
+}
+
+.rightButton {
+	float: left;
+	margin-top: 17rem;
+	margin-bottom: 5.25rem;
+	font-size: 30px;
+}
+
+.rpiRed {
+    background-color: #CD0012 !important;
+}
+
+.rpiLogo {
+	width: 16rem;
+	height: 5rem;
+}
+
+.rpiGrey {
+	background-color: #d7dbde;
+	margin-top: 1.5rem!important;
+	padding-top: 1rem!important;
+}
