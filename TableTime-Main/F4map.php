@@ -29,6 +29,7 @@ if (mysqli_query($conn, $sql)) {
 	<title>Folsom 4 Map</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="g.png" type="image/x-icon" />
 
 	<link rel="stylesheet" type="text/css" href="mapStyle.css"/>
 	<script type="text/javascript" src="resources/functions.js"></script>

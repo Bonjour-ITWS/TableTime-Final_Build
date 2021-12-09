@@ -1,7 +1,7 @@
 <?php 
 session_start(); 
 
-include 'PHPMailer-master/test.php';
+include 'PHPMailer-master/cancel.php';
 
 $dbhost= "localhost";
 $dbusername= "root";
@@ -25,7 +25,7 @@ if (mysqli_query($conn, $sql)) {
  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 ?>
-<?php include "reserve.php";?>
+<?php include "cancelreserve.php";?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,27 +57,14 @@ if (mysqli_query($conn, $sql)) {
 		</div>
 	</header>
 
-	<p style="padding-top: 50px">Thank you!<br>
-		This is your confirmation that you've reserved a table.<br>
-		<!--
-			Display Reservation info here (floor, table number, time)
-			example:
-
-			Location: Folsom Floor 3
-			Table Number: 2
-			Time: 10am - 11am
-		-->
-		Please head over to your table now to check in within 10 mins.<br>
+	<p style="padding-top: 50px">Reservation Cancelled.<br>
+		Thank you for using TableTime.<br><br>
+        <img src="qr-code.png" alt="IDK" width = 400px height = 400px>
+    <br>
 		You may close this window now.
 	</p>
-    <div class="col">
-        <a href="cancel.php">
-    	<button type="button" class="btn btn-danger rightButton">Cancel Reservation</button>
-    </a>
 	<!--
 	Cancel Reservation Button
 	send user to cancel.html
 	-->
-
-
 </body>
