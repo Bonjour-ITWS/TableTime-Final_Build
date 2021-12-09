@@ -59,7 +59,7 @@ if (mysqli_query($conn, $sql)) {
 
 	<p style="padding-top: 50px">Reservation Cancelled.<br>
 		Thank you for using TableTime.<br><br>
-        <img src="qr-code.png" alt="IDK" width = 400px height = 400px>
+        <img src="qr-code.png" width = 400px height = 400px>
     <br>
 		You may close this window now.
 	</p>
