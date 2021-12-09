@@ -28,7 +28,7 @@ try {
 
     //Recipients
     $mail->setFrom('RPITableTime@gmail.com', 'RPI Table Time');
-    $mail->addAddress('Tyler.Haynes@outlook.com', 'Tyler Haynes');     //Add a recipient
+    $mail->addAddress($test . '@rpi.edu', $test);     //Add a recipient
     //$mail->addAddress('ellen@example.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
@@ -41,7 +41,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'TableTime Reservation Canceled';
-    $mail->Body    = 'Reservation for ' . $test . ' has been cancelled. <br> Thank you for using TableTime.';
+    $mail->Body    = 'Reservation for <b>' . $test . '</b> has been cancelled. <br> Thank you for using TableTime.';
     $mail->send();
     echo '';
 } catch (Exception $e) {
