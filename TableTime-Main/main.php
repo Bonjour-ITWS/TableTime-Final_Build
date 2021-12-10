@@ -54,7 +54,7 @@ if (mysqli_query($conn, $sql)) {
             <?php echo '<li class="nav-link px-1 text-white">'. $test . '</li>'; ?>
             <li><a href="main.php" class="nav-link px-2 text-white">Reserve A Table</a></li>
             <li><a href="https://covid19.rpi.edu/" class="nav-link px-2 text-white">COVID-19 Policies</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">About Us</a></li>
+            <li><a href="aboutus.html" class="nav-link px-2 text-white">About Us</a></li>
             
           </ul>
         </div>
