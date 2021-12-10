@@ -79,6 +79,10 @@ if (mysqli_query($conn, $sql)) {
 			<input type="hidden" id="seat" name="seat" value="4">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 60%; left: 50%; background-color: black">Reserve Table 4</button>
+			<?php 
+			
+			if ()
+			?>
         </form>
 
 
