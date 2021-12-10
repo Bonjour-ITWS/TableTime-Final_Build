@@ -5,7 +5,7 @@ include 'PHPMailer-master/test.php';
 
 $dbhost= "localhost";
 $dbusername= "root";
-$dbpassword = "";
+$dbpassword = "yeet";
 $dbname = "tabletime";
 
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);

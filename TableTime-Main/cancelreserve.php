@@ -5,7 +5,7 @@ date_default_timezone_set('America/New_York');
 
 $dbhost= "localhost";
 $dbusername= "root";
-$dbpassword = "";
+$dbpassword = "yeet";
 $dbname = "tabletime";
 
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);

@@ -1,0 +1,24 @@
+
+
+
+<!doctype html>
+<html lang="en">
+
+<script>
+	function toMap(element){
+		document.location.href = element.value
+	}
+</script>
+
+<select style="font-size: 30px;" name="pages" onChange="toMap(this)">
+	<option value="LibraryChooseFloor"> Choose a Floor </option>
+	<option value="LibraryFloor1"> Floor 1 </option>
+	<option value="LibraryFloor2"> Floor 2 </option>
+	<option value="LibraryFloor3"> Floor 3 </option>
+	<option value="F4map.php"> Floor 4 </option>
+</select>
+<br>
+</div>
+<div class="col">
+	<button type="button" class="btn btn-danger rightButton" onClick="toMap()">Next</button>
+</div>
