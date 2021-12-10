@@ -8,7 +8,7 @@ $dbname = "tabletime";
 
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
 if (!$conn) {
-    echo "Connection failed!";
+	echo "Connection failed!";
 }
 
 $test = $_SESSION['username'];
@@ -18,9 +18,9 @@ $sql = "SELECT * FROM `reservation` WHERE `username` = '$test'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_array($result);
 if (mysqli_query($conn, $sql)) {
- echo "";
+	echo "";
 } else {
- echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+	echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 ?>
 <!DOCTYPE html>
@@ -56,58 +56,73 @@ if (mysqli_query($conn, $sql)) {
 		<img src="resources/floor.png" alt="Folsom 4th Floor" class="center">
 
 		<!--Tables at Door-->
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="1">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 25%; left: 25%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 1</button>
-        </form>
+		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="2">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 60%; left: 25%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 2</button>
-        </form>
+		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="3">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 25%; left: 50%;" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 3</button>
-        </form>
+		</form>
 
+		<?php
+		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '4' AND Floor ='Folsom 4' ");
 
-        <form action = "confirmed.php" method = "post">
-			<input type="hidden" id="seat" name="seat" value="4">
-			<input type="hidden" id="floor" name="floor" value="Folsom 4">
-			<button class="btn vert" style="top: 60%; left: 50%; background-color: black">Reserve Table 4</button>
-			<?php 
-			
-			if ()
+		if( mysqli_num_rows($check1) == 0) {
+			echo "its not here";
 			?>
-        </form>
+			<form action = "confirmed.php" method = "post">
+				<input type="hidden" id="seat" name="seat" value="4">
+				<input type="hidden" id="floor" name="floor" value="Folsom 4">
+				<button class="btn vert" style="top: 60%; left: 50%;">Reserve Table 4</button>
+			</form>
+			<?php
+		}
+		else {
+			echo "its here";
+			?>
+			<form action = "occupied.html" method = "post">
+				<input type="hidden" id="seat" name="seat" value="4">
+				<input type="hidden" id="floor" name="floor" value="Folsom 4">
+				<button class="btn vert" style="top: 60%; left: 50%; background-color: black">Occupied Table 4</button>
+			</form>
+			<?php
+		} 
+		?>
+
 
 
 
 		<!--Tables at Left-->
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="5">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn" style="top: 10%; left: 10%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 5</button>
-        </form>
+		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="6">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 30%; left: 1%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 6</button>
 		</form>
 
 		
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="7">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 65%; left: 1%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 7</button>
 		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="8">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn" style="top: 85%; left: 20%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 8</button>
@@ -120,31 +135,31 @@ if (mysqli_query($conn, $sql)) {
 
 		<!--Tables at Right-->
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="9">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 30%; left: 65%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 9</button>
 		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="10">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn" style="top: 10%; left: 70%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 10</button>
 		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="11">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 30%; left: 85%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 11</button>
 		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="12">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn vert" style="top: 65%; left: 85%" onclick="window.locathion.href='confirm.html'" target="_blank">Reserve Table 12</button>
 		</form>
 
-        <form action = "confirmed.php" method = "post">
+		<form action = "confirmed.php" method = "post">
 			<input type="hidden" id="seat" name="seat" value="13">
 			<input type="hidden" id="floor" name="floor" value="Folsom 4">
 			<button class="btn" style="top: 85%; left: 70%" onclick="window.location.href='confirm.html'" target="_blank">Reserve Table 13</button>
