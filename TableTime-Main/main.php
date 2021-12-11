@@ -3,7 +3,7 @@ session_start();
 
 $dbhost= "localhost";
 $dbusername= "root";
-$dbpassword = "yeet";
+$dbpassword = "";
 $dbname = "tabletime";
 
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
