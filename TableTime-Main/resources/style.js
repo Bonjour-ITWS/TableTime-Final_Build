@@ -13,15 +13,8 @@ function ShowRadioButtonDiv (IdBaseName, NumberOfButtons) {
     return false;
 }
 
-function change()
-{
-    var elem = document.getElementById("covidAdminBtn");
-    if (elem.value=="Enable Covid Maps") {
-        elem.value = "Disable Covid Maps";
-        elem.innerHTML = "Disable Covid Maps";
-    }
-    else {
-        elem.value = "Enable Covid Maps";
-        elem.innerHTML = "Enable Covid Maps";
-    } 
+function init(){
+    document.getElementById("GroupName1").click();
 }
+
+window.onload = init;
