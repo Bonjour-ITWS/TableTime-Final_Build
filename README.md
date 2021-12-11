@@ -18,7 +18,7 @@
 [PHPMailer Repo](https://github.com/PHPMailer/PHPMailer)
 
 
-[Link to Final Slide Deck] (https://docs.google.com/presentation/d/1qZDOm8KWpqnMmZN-BSuL2SMRLTE6z5t1/edit?usp=sharing&ouid=115767316601743803010&rtpof=true&sd=true)
+[Link to Final Slide Deck](https://docs.google.com/presentation/d/1qZDOm8KWpqnMmZN-BSuL2SMRLTE6z5t1/edit?usp=sharing&ouid=115767316601743803010&rtpof=true&sd=true)
 
 ***Main Site Features***:
         
