@@ -74,7 +74,12 @@ if (mysqli_query($conn, $sql)) {
               <li class="nav-item">
                 <INPUT type="radio" name="RadioGroupName" id="GroupName1" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Folsom Library
               </li>
-              
+              <li class="nav-item">
+                <INPUT type="radio" name="RadioGroupName" id="GroupName2" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Student Union
+              </li>
+              <li class="nav-item">
+                <INPUT type="radio" name="RadioGroupName" id="GroupName3" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Barton Hall
+              </li>
             </ul>
           </div>
         </nav>
@@ -85,28 +90,76 @@ if (mysqli_query($conn, $sql)) {
                 <div class="col">
                       
                 </div>
-
-                <script>
-                  function toMap(element){
-                    document.location.href = element.value
-                  }
-                </script>
-
-
                 <div class="col-8">
                   <div class="middleTitle"> Choose a Floor </div>
-                  <select style="font-size: 30px;" name="pages" onChange="toMap(this)">
+                  <select style="font-size: 30px;">
                     <option value="LibraryChooseFloor"> Choose a Floor </option>
-                    <option value="F3map.php"> Floor 3 </option>
-                    <option value="F4map.php"> Floor 4 </option>
+                    <option value="LibraryFloor1"> Floor 1 </option>
+                    <option value="LibraryFloor2"> Floor 2 </option>
+                    <option value="LibraryFloor3"> Floor 3 </option>
+                    <option value="LibraryFloor4"> Floor 4 </option>
                   </select>
                   <br>
+                </div>
+                <div class="col">
+                  <a href="F4map.php">
+                    <button type="button" class="btn btn-danger rightButton">Next</button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
-
+          <div id="GroupName2Div" class="allignCenter" style="display:none;">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                      
+                </div>
+                <div class="col-8">
+                  <div class="middleTitle"> Choose a Floor </div>
+                  <select style="font-size: 30px;">
+                    <option value="UnionChooseFloor"> Choose a Floor </option>
+                    <option value="UnionFloor1"> Floor 1 </option>
+                    <option value="UnionFloor2"> Floor 2 </option>
+                    <option value="UnionFloor3"> Floor 3 </option>
+                  </select>
+                  <br>
+                  <div class="middleTime">Your reservation time will be from 10:00am to 11:00am </div>
+                </div>
+                <div class="col">
+                  <a href="U3map-covid.html">
+                    <button type="button" class="btn btn-danger rightButton">Next</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="GroupName3Div" class="allignCenter" style="display:none;">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                      
+                </div>
+                <div class="col-8">
+                  <div class="middleTitle"> Choose a Floor </div>
+                  <select style="font-size: 30px;">
+                    <option value="BartonChooseFloor"> Choose a Floor </option>
+                    <option value="BartonFloor1"> Floor 1 </option>
+                    <option value="BartonFloor2"> Floor 2 </option>
+                    <option value="BartonFloor3"> Floor 3 </option>
+                    <option value="BartonFloor4"> Floor 4 </option>
+                  </select>
+                  <br>
+                  <div class="middleTime">Your reservation time will be from 10:00am to 11:00am </div>
+                </div>
+                <div class="col">
+                  <a href="F4map.html">
+                    <button type="button" class="btn btn-danger rightButton">Next</button>
+                  </a>  
+                </div>
+              </div>
+            </div>
+          </div>
         </main>
       </div>
     </div>
@@ -116,8 +169,8 @@ if (mysqli_query($conn, $sql)) {
     <script src="resources/style.js"></script>
   </body>
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top rpiGrey textStyle" style="position: absolute; bottom:0; width: 100%">
-    <p class="col-md-4 mb-0 text-muted" style="padding-left: 10px">&copy; 2021 Team Bravo</p>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center border-top rpiGrey textStyle">
+    <p class="col-md-4 mb-0 text-muted">&copy; 2021 Team Bravo</p>
 
     <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
