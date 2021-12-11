@@ -20,6 +20,7 @@ This new repo is most up to date. However there were two older repos previously 
 [PHPMailer Repo](https://github.com/PHPMailer/PHPMailer)
 
 
+[TableTime 1.0 Release](https://github.com/Bonjour-ITWS/TableTime-Final_Build/releases/tag/1.0)
 
 ***Main Site Features***:
         
