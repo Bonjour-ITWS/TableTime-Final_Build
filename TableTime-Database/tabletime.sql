@@ -45,7 +45,7 @@ CREATE TABLE `reservation` (
 
 INSERT INTO `reservation` (`username`, `password`, `has_reservation`, `Floor`, `Seat`, `Start`, `End`, `has_extended`, `is_admin`) VALUES
 ('dbachi3', 'Test', 0, '', 0, '00:00:00', '00:00:00', 0, 0),
-('haynet3', 'AMC', 0, '', 0, '00:00:00', '00:00:00', 0, 0);
+('haynet3', 'AMC', 0, '', 0, '00:00:00', '00:00:00', 0, 1);
 
 --
 -- Indexes for dumped tables
