@@ -22,6 +22,11 @@ This new repo is most up to date. However there were two older repos previously 
 
 [TableTime 1.0 Release](https://github.com/Bonjour-ITWS/TableTime-Final_Build/releases/tag/1.0)
 
+
+***Issues***:
+
+         -If you encounter any issues upon testing the 1.0 Release please make the team aware by creating an issue notice on GitHub.
+
 ***Main Site Features***:
         
          -Login page for both Main Reservation Page and Sub-Site, properly authenticates user against database entries
