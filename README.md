@@ -23,6 +23,13 @@ This new repo is most up to date. However there were two older repos previously 
 [TableTime 1.0 Release](https://github.com/Bonjour-ITWS/TableTime-Final_Build/releases/tag/1.0)
 
 
+***Instructions***:
+
+         -Database dumps have been included to allow for testing.
+         -To test in general-we've provided a sign up feature to make your own user account, please use your RCSID
+         -To test the admin page loading, please sign in using 'haynet3' as the Username and 'AMC' as the password 
+
+
 ***Issues***:
 
          -If you encounter any issues upon testing the 1.0 Release please make the team aware by creating an issue notice on GitHub.
