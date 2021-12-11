@@ -33,6 +33,9 @@ This new repo is most up to date. However there were two older repos previously 
 ***Issues***:
 
          -If you encounter any issues upon testing the 1.0 Release please make the team aware by creating an issue notice on GitHub.
+         -Also please note that the email notification feature has exhibited some inconsistencies when it comes to running on different machines
+         -If you find that it does not properly send out an email to your RCSID@rpi.edu please create an issue notice on GitHub and it will
+         -be investigated
 
 ***Main Site Features***:
         
