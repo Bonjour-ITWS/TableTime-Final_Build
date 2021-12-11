@@ -34,5 +34,5 @@ This new repo is most up to date. However there were two older repos previously 
 
 ***Plans Going Forward***:
 
-                The inital idea for TableTime was concieved pre-Covid and was intended to find tables in a very packed Union. Initially the idea was to be pitched to RCOS and started from scratch, but COVID happened and the plan was put on backlog. Having made a significant amount of headway in WebSystems, the group has decided that it would be a good idea to put this as a potential RCOS project. The plan is to pitch the concept in January to RCOS as a potential project given the work done thus far and hopefully see an end product in action by the end of next semester.
+The inital idea for TableTime was concieved pre-Covid and was intended to find tables in a very packed Union. Initially the idea was to be pitched to RCOS and started from scratch, but COVID happened and the plan was put on backlog. Having made a significant amount of headway in WebSystems, the group has decided that it would be a good idea to put this as a potential RCOS project. The plan is to pitch the concept in January to RCOS as a potential project given the work done thus far and hopefully see an end product in action by the end of next semester.
          
