@@ -74,12 +74,7 @@ if (mysqli_query($conn, $sql)) {
               <li class="nav-item">
                 <INPUT type="radio" name="RadioGroupName" id="GroupName1" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Folsom Library
               </li>
-              <li class="nav-item">
-                <INPUT type="radio" name="RadioGroupName" id="GroupName2" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Student Union
-              </li>
-              <li class="nav-item">
-                <INPUT type="radio" name="RadioGroupName" id="GroupName3" onclick="ShowRadioButtonDiv('GroupName', 3)"/>Barton Hall
-              </li>
+              
             </ul>
           </div>
         </nav>
@@ -102,9 +97,7 @@ if (mysqli_query($conn, $sql)) {
                   <div class="middleTitle"> Choose a Floor </div>
                   <select style="font-size: 30px;" name="pages" onChange="toMap(this)">
                     <option value="LibraryChooseFloor"> Choose a Floor </option>
-                    <option value="LibraryFloor1"> Floor 1 </option>
-                    <option value="LibraryFloor2"> Floor 2 </option>
-                    <option value="LibraryFloor3"> Floor 3 </option>
+                    <option value="F3map.php"> Floor 3 </option>
                     <option value="F4map.php"> Floor 4 </option>
                   </select>
                   <br>
@@ -114,61 +107,6 @@ if (mysqli_query($conn, $sql)) {
           </div>
 
 
-
-          <div id="GroupName2Div" class="allignCenter" style="display:none;">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                      
-                </div>
-                <div class="col-8">
-                  <div class="middleTitle"> Choose a Floor </div>
-                  <select style="font-size: 30px;">
-                    <option value="UnionChooseFloor"> Choose a Floor </option>
-                    <option value="UnionFloor1"> Floor 1 </option>
-                    <option value="UnionFloor2"> Floor 2 </option>
-                    <option value="UnionFloor3"> Floor 3 </option>
-                  </select>
-                  <br>
-                  <div class="middleTime">Your reservation time will be from 10:00am to 11:00am </div>
-                </div>
-                <div class="col">
-                  <a href="U3map-covid.html">
-                    <button type="button" class="btn btn-danger rightButton">Next</button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          
-          <div id="GroupName3Div" class="allignCenter" style="display:none;">
-            <div class="container">
-              <div class="row">
-                <div class="col">
-                      
-                </div>
-                <div class="col-8">
-                  <div class="middleTitle"> Choose a Floor </div>
-                  <select style="font-size: 30px;">
-                    <option value="BartonChooseFloor"> Choose a Floor </option>
-                    <option value="BartonFloor1"> Floor 1 </option>
-                    <option value="BartonFloor2"> Floor 2 </option>
-                    <option value="BartonFloor3"> Floor 3 </option>
-                    <option value="BartonFloor4"> Floor 4 </option>
-                  </select>
-                  <br>
-                  <div class="middleTime">Your reservation time will be from 10:00am to 11:00am </div>
-                </div>
-                <div class="col">
-                  <a href="F4map.html">
-                    <button type="button" class="btn btn-danger rightButton">Next</button>
-                  </a>  
-                </div>
-              </div>
-            </div>
-          </div>
         </main>
       </div>
     </div>
