@@ -5,6 +5,9 @@
 This new repo is most up to date. However the old history/repo can be found here: https://github.com/Bonjour-ITWS/TableTime-Final_Build
 This new repo was created due to files needing to convert into php rather than html. Hence in grading the overall history/participation of the project please also reference the old repo.
 
+
+Please note: The email sending feature does genuinely work but a bug occured when merging everything into the final build. As such if you would like to see this feature in action please refer to the [Beta Release](https://github.com/Bonjour-ITWS/TableTime-Final_Build/archive/refs/tags/Beta.zip) prior to the additon of the previously mentioned bug. In order to test it, when signing up for an account, but sure to use you RCSID as the username as it looks to that to determing the delivery address.
+
 [Link to Demo Sub-Site Repo](https://github.com/Bonjour-ITWS/TableTime-SubSite)
 
 
