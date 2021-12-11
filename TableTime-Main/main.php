@@ -133,7 +133,7 @@ if (mysqli_query($conn, $sql)) {
   <ul class="nav col-md-4 justify-content-end">
     <li class="nav-item"><a href="main.php" class="nav-link px-2 text-muted">Reserve a Table</a></li>
     <li class="nav-item"><a href="https://covid19.rpi.edu/" class="nav-link px-2 text-muted">COVID-19 Policies</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+    <li class="nav-item"><a href="aboutus.html" class="nav-link px-2 text-muted">About Us</a></li>
     <li class="nav-item"><a href="logout.php" class="nav-link px-2 text-muted">Logout</a></li>
   </ul>
 </footer>
