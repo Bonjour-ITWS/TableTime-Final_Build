@@ -2,7 +2,7 @@
 
 ![QR Code](/qr-code.png)
 
-This new repo is most up to date. However there were two older repos previously used for development of both the [Main Reservation Site](https://github.com/Bonjour-ITWS/TableTime) and [Mobile Friendly Sub-Site](https://github.com/Bonjour-ITWS/TableTime-SubSite) respectively. This new repo was created due to files needing to convert into PHP as opposed to HTML. As such, when grading the overall history/participation of the project please also reference the old repositiories provided in the links above.
+This new repo is most up to date. However there were two older repos previously used for development of both the [Main Reservation Site](https://github.com/Bonjour-ITWS/TableTime) and [Mobile Friendly Sub-Site](https://github.com/Bonjour-ITWS/TableTime-SubSite) respectively. This new repo was created due to files needing to convert into PHP as opposed to HTML. As such, when grading the overall history/participation of the project please also reference the old repositiories provided in those links.
 
 
 [Link to Midterm Slideshow](https://docs.google.com/presentation/d/1qZDOm8KWpqnMmZN-BSuL2SMRLTE6z5t1/edit?usp=sharing&ouid=105388176510987033678&rtpof=true&sd=tru)
