@@ -60,7 +60,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '1' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="1">
@@ -83,7 +83,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '2' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="2">
@@ -106,7 +106,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '3' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="3">
@@ -129,7 +129,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '4' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="4">
@@ -156,7 +156,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '5' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="5">
@@ -179,7 +179,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '6' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="6">
@@ -202,7 +202,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '7' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="7">
@@ -225,7 +225,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '8' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="8">
@@ -251,7 +251,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '9' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="9">
@@ -274,7 +274,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '10' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="10">
@@ -297,7 +297,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '11' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="11">
@@ -320,7 +320,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '12' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="12">
@@ -343,7 +343,7 @@ if (mysqli_query($conn, $sql)) {
 		<?php
 		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '13' AND Floor ='Folsom 3' ");
 
-		if( mysqli_num_rows($check1) == 0) {
+		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
 			<form action = "confirmed.php" method = "post">
 				<input type="hidden" id="seat" name="seat" value="13">
