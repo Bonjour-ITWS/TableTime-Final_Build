@@ -27,7 +27,7 @@
           <!-- Icon -->
           <div class="fadeIn first">
             <p id = "boxHead">TableTime</p>
-            <p>Input a Your RCSID Username and Password</p>
+            <p>Input a Username and Password</p>
           </div>
       
           <!-- Login Form -->
