@@ -58,7 +58,7 @@ if (mysqli_query($conn, $sql)) {
 		<!--Tables at Door-->
 		<!-- Table 1 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '1' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '1' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -81,7 +81,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 2 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '2' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '2' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -104,7 +104,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 3 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '3' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '3' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -127,7 +127,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 4 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '4' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '4' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -154,7 +154,7 @@ if (mysqli_query($conn, $sql)) {
 		<!--Tables at Left-->
 		<!-- Table 5 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '5' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '5' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -177,7 +177,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 6 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '6' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '6' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -200,7 +200,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 7 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '7' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '7' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -223,7 +223,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 8 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '8' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '8' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -249,7 +249,7 @@ if (mysqli_query($conn, $sql)) {
 		<!--Tables at Right-->
 		<!-- Table 9 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '9' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '9' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -272,7 +272,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 10 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '10' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '10' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -295,7 +295,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 11 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '11' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '11' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -318,7 +318,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 12 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '12' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '12' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
@@ -341,7 +341,7 @@ if (mysqli_query($conn, $sql)) {
 		?>
 		<!-- Table 13 -->
 		<?php
-		$check1 = mysqli_query($conn, "SELECT id FROM reservation WHERE Seat = '13' AND Floor ='Folsom 4' ");
+		$check1 = mysqli_query($conn, "SELECT username FROM reservation WHERE Seat = '13' AND Floor ='Folsom 4' ");
 
 		if(!$check1 || mysqli_num_rows($check1) == 0) {
 			?>
