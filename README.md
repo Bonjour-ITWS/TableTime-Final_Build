@@ -22,6 +22,7 @@ This new repo is most up to date. However there were two older repos previously 
 
 [TableTime 1.0 Release](https://github.com/Bonjour-ITWS/TableTime-Final_Build/releases/tag/1.0)
 
+[Link to Mobile Site Wireframe/Mockups](https://app.moqups.com/U7y8cM5Zfb/view/page/ae8fe8eb0)
 
 ***Instructions***:
 
